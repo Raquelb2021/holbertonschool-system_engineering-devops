@@ -1,2 +1,2 @@
-file -Cm school.mgc/strings SCHOOL
+strings -o school.mgc | less
 
