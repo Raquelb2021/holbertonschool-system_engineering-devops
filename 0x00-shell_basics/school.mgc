@@ -1,2 +1,0 @@
-#!/bin/bash
-file -Cm school.mgc string SCHOOL offset 0
