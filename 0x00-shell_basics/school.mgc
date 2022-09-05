@@ -1,2 +1,3 @@
-strings -o school.mgc | less
+0 string SCHOOL School data
+!:mime School
 
