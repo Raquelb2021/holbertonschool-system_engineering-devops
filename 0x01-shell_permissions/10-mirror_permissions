@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod xw-x-rxwr-=-rwxr-x-wx
+chmod 753=357
