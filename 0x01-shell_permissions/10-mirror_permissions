@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -rwxr-x-wx=xw-x-rxwr-
+chmod xw-x-rxwr-=-rwxr-x-wx
