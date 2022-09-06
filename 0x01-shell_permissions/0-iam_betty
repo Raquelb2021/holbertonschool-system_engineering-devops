@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x betty.sh ./betty.sh
+su root betty
