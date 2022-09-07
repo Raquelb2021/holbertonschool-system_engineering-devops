@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type -name "*" d | wc-l
+ls -RAl | grep ^d | wc -l
