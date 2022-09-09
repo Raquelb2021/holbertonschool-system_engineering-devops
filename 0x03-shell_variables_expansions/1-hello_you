@@ -1,2 +1,2 @@
 #!/bin/bash
-id -un hello user
+whoami id -un hello user
