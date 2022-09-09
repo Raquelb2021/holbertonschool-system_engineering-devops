@@ -1,2 +1,2 @@
 #!/bin/bash
-tree -ls /PATH | tail -1
+ls -l /PATH | grep ^d | wc -1
