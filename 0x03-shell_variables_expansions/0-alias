@@ -1,2 +1,2 @@
 #!/bin/bash
-alias ls='cd /usr; ls; cd-'
+alias [-p] [ls] [rm *]
