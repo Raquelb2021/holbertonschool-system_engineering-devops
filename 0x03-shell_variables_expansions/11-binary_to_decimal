@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $BINARY((2#1010))
+binary=$(echo "obase=2;$decimal" |bc)
