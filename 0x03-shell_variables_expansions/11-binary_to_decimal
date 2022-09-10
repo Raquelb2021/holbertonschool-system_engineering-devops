@@ -1,2 +1,2 @@
 #!/bin/bash
-binary=$(echo "obase=2;$decimal" |bc)
+${binary2*10}.
