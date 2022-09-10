@@ -1,2 +1,2 @@
 #!/bin/bash
-find /PATH -type d -name "lib" -print | wc -1
+ls -1U PATH | wc -1
