@@ -1,2 +1,2 @@
 #!/bin/bash
-echo [:alpha:] [:lower:] {a..c}
+echo [:lower:] [:alpha:] {a..z} -oo 
