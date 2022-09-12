@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #Using until loop
-i=0
-until (( i < 10 ));
-do
-   echo "Best School";
-      ((i++));
-done
+$i = 0;
+until ($i>10){
+	print $i,"\n";
+	$i = $i+1;
+}
