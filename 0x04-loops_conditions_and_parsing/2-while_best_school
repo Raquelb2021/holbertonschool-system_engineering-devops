@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Using while loop
-while {1..10};
-do 
-   echo "Best School"
+a=1
+while [ $a -le 10 ]
+do
+	echo "Best School"
+	a=$(( $a + 1 ))
 done
-
