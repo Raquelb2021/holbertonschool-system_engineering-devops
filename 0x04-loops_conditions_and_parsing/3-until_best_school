@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #Using until loop
-i=0
-until [$i-gt 10];
+counter=0
+until [ $counter -gt 10 ));
 do
-   echo "Best School";
-     ((i++));
+   echo Counter: $counter "Best School"
+     ((counter++));
 done
