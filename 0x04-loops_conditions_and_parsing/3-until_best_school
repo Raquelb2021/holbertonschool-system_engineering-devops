@@ -2,6 +2,6 @@
 #Using until loop
 $i = 0;
 until ($i>10){
-	print $i,"\n";
+	print $i,"Best School\n";
 	$i = $i+1;
 }
