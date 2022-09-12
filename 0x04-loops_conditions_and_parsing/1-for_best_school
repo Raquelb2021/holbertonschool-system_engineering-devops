@@ -2,7 +2,7 @@
 # run command 10 times
 # START #
 for i in {1..10};
-do
-	echo "Best School" $i;
+do;
+	echo "Best School";
 done
 # END #
