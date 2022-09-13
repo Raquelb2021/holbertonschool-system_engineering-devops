@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Show you bash PID
+ps -H u aux | less
