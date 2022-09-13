@@ -3,9 +3,9 @@
 count=1
 while [ $count -le 10 ]; do
    echo "Best School"
-count=$((count + 1))
 if [ $count == 9 ] 
 then 
-  	printf "%s\n" "hi"
+  	printf "%s\n" "Hi"
 fi
+((count++))
 done
