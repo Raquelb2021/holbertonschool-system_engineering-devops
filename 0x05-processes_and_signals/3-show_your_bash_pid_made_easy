@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #PID made easy
-echo "PID of this script:$$" | sed -n "bash"
+echo "$$" | sed -n "bash"
