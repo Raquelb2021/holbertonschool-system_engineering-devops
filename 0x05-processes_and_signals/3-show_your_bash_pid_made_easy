@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #PID made easy
-top | sed -n "bash"
+find /proc | sed -n "bash"
