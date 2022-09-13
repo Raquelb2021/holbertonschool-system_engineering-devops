@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Using if,elif and else
 x=1
 while [ $x -le 10 ]; do
 	if [ $x == 4 ]
