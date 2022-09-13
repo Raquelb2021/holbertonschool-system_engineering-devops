@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #PID made easy
-ls /proc | less | echo "bash
+top | less | sed -n "bash"
