@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 #Script that gives information the school file
 	filename=school
-       if [ -f "$school" ];
-       then 
-	echo "$school school file exists"
-	else 
-	echo "school file does not exist"
-       fi
-if [ -s $chool ]; then
-	echo "school file is empty"
-	rm -f $school
-else echo "school file is not empty"
-fi
+       if [ -f "$school" ]; then
+       echo "$school school files exist"
+else
+	echo "$school school file does not exist"
+	if [ -s "$school" ]; then
+		echo "$school school file is empty"
+	else
+		echo "$school school file is not empty"
+		if [ -f "$school" ]; then
+			echo "$school school is a regular file"
+		else 
+			echo "$school"
+		fi
