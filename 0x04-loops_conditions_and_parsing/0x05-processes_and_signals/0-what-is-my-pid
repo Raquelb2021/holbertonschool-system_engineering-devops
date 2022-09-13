@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
 #what is my PID
-pid=$1
-while ((while)) ; do
-	ps -h -o 'pid,comm,euser' $pid \
-		| sed -E 's/^( *[0-9]+ ) *([^ ]+0/\1(\2,\3)/'
-	done
+./0-what-is-my-pid
+
