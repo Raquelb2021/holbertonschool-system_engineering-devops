@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #Show you bash PID
-ps -H aux | less | echo "bash"
+ps -H aux | less | sed -n "bash
