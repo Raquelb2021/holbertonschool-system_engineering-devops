@@ -2,7 +2,7 @@
 #Script that gives information the school file	
 x=school
 if [ -e $x ]; then
-	       echo "school files existe"
+	       echo "school files exist"
 if [ -s $x ]; then
 	     echo "school file is not empty"
      else 
