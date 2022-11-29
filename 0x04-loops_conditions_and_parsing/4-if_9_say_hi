@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#while-count 0-10/9h changes the display 
+count=1
+while [ $count -le 10 ]; do
+   echo "Best School"
+if [ $count == 9 ] 
+then 
+  	printf "%s\n" "Hi"
+fi
+((count++))
+done

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#made easyh
+pgrep -l bash
